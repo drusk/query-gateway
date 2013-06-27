@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 #gem 'java-query-gateway', '0.1', :git =>"http://github.com/rdingwell/java-hquery-executor.git", :platforms => :jruby
 
 
@@ -36,6 +36,7 @@ group :test do
 
   # Pretty printed test output
   gem 'minitest', '< 5.0.0'
+  gem 'test-unit', :require => "test/unit"
   gem 'turn', :require => false
   gem 'cover_me', '>= 1.0.0.rc6', :platforms => :ruby
   gem 'factory_girl', '1.3.3'
